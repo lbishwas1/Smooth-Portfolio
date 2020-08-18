@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: Roboto Family;
+}
+a{
+	text-decoration: none;
+	color:#8E712F;
+}
+.nav-container{
+	height:100%;
+	width: 100%;
+	background-color: #E3F4DD;
+	clip-path: ellipse(15% 30% at 0% 50%);
+	margin-left: -10px;
+	position: fixed;
+	transition: 0.3s;
+	z-index:3;
+
+}
+strong{
+	color:#8E712F;
+	font-weight: bold;
+	font-size: 50px;
+}
+ul{
+	list-style: none;
+	margin-top: 250px;
+	margin-left: 0px;
+}
+li{
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+i{
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+
+
+
+
+.dp{
+	font-family: Roboto Slab;
+
+}
+.dp img{
+	width: 400px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 200px;
+	margin-bottom: 100px;
+	z-index:-1;
+	
+}
+
+.dp .dp-intro{
+	position: absolute;
+	width: 500px;
+	margin-left: 500px;
+	margin-top: 200px;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+}
+.dp .job{
+	position: absolute;
+	width: 500px;
+	margin-left: 500px;
+	margin-top: 260px;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+}
+.dp .color{
+
+}
+#home{
+	height: 100vh;
+	font-family: Roboto Slab;
+}
+#skill{
+	height: 100vh;
+	font-family: Roboto Slab;
+}
+h1{
+	width:100%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.skill-text{
+	margin-left:10%;
+	margin-top: 80px;
+	width: 80%;
+	text-align: center;
+}
+#skill .features{
+	margin-left: 400px;
+	margin-top: 20px;
+	width: 60%;
+	text-align: left;
+}
+
+#portfolio{
+	height: 100vh;
+	font-family: Roboto Slab;
+}
+.container{
+	margin-left: 0px;
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: -20px;
+}
+.project{
+	grid-gap: 2px;
+
+}
+.porto-text{
+	margin-top: 80px;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+#contact{
+	height: 100vh;
+	width: 100%;
+	
+	
+	opacity: 0.3;
+	font-family: Roboto Slab;
+
+}
+
+.mouse {
+  display: block;
+  margin: 0 auto;
+  width: 26px;
+  height: 46px;
+  border-radius: 13px;
+  border: 2px solid #000;
+  position: absolute;
+  bottom: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -26px;
+}
+.mouse span {
+  display: block;
+  margin: 6px auto;
+  width: 2px;
+  height: 2px;
+  border-radius: 4px;
+  background: #000;
+  border: 1px solid transparent;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+.title-container{
+	display: flex;
+	align-items: center;
+}
+.button{
+	z-index: -1;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6);
+    opacity: 1;
+  }
+  25% {
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    transform: translateY(-15px);
+  }
+  75% {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6);
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    transform: none;
+  }
+}
+.button {
+  margin-left: 30px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.button:hover {
+  transform: rotate(180deg);
+}
+
+.social{
+	margin-top:50px;
+	margin-left: 520px;
+}
+.social-text{
+		margin-left:10%;
+	margin-top: 80px;
+	width: 80%;
+	text-align: center;
+
+}
